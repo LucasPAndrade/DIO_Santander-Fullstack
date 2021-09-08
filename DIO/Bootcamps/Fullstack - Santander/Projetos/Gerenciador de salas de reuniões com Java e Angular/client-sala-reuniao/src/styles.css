@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+:root {
+  --primary-color: #b0dd74;
+  --secondary-color: #a55edf;
+  --light-gray: #bdbdbd;
+  --dark-gray: #333333;
+}
+
+section {
+  width: 25rem;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons * {
+  width: 20rem;
+  margin: 1rem auto;
+}

@@ -1,0 +1,15 @@
+.foot {
+  background: var(--primary-color);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.foot * {
+  color: var(--dark-gray);
+  text-decoration: none;
+}
